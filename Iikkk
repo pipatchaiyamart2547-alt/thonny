@@ -1,0 +1,22 @@
+print('--- Part 1 --')
+a=True
+while a:
+= int(input ('Enter number (2-10):'))
+if n<2 or n>10 :
+print( 'Not value want...')
+else:
+break
+print('--- Part 2 ---')
+names
+= []
+for i in range(n):
+full_name
+= input(f"Enter String[{i+1}]: ")
+names. append (full_name)
+print ('-- Part 3 ---')
+for i, full_name in enumerate (names) :
+last_name = full_name.split()
+print (f"Name [{i+1}]: {full_name}")
+print(f"Last Name: {last_name}")
+print(f"Last Name
+is {len (last_name)} character.")
